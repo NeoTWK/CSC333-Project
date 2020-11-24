@@ -1,0 +1,2 @@
+Upon opening the executable file, you will be greeted with the game's title screen. Simply press the s key to be taken into the game. The keys w,a,s,d move the alien ship at the top right of the screen and the r key allows you to fire its weapon. The same is done with the up, left, down and right keys to move the Earth ship with the spacebar being its shoot button. The ships fight until one player is hit five times. 
+ 

@@ -32,8 +32,10 @@ func newEnemyBullet(renderer *sdl.Renderer) *element {
 func newPlayerBullet(renderer *sdl.Renderer) *element {
 	bullet := &element{}
 
-	sr := newSpriteRenderer(bullet, renderer, "Sprites/Projectile.bmp")
+	sr := newSpriteRenderer(bullet, renderer, "Sprites/Projectile (copy).bmp")
 	bullet.addComponent(sr)
+	bullet.rotation = 276
+	
 
 	mover := newBulletMover(bullet, bulletSpeed)
 	bullet.addComponent(mover)
